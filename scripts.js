@@ -64,7 +64,8 @@ const Transaction = {
     expenses() {
         let expense = 0;
         //pegar todas as transações
-        //para cada transação
+        //comentario
+        //para cada transação 
         transactions.forEach(transaction => {
             // se ela fro menor que zero
             if(transaction.amount < 0) {
